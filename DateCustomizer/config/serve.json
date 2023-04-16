@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/Lists/Products/All%20Products.aspx?",
+      "fieldCustomizers": {
+        "ReleaseDate": {
+          "id": "32dcc849-4f43-4d1f-a6b4-2c0513d8b31f"
+        }
+      }
+    },
+    "dateCustomizer": {
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/Lists/Products/All%20Products.aspx?",
+      "fieldCustomizers": {
+        "ReleaseDate": {
+          "id": "32dcc849-4f43-4d1f-a6b4-2c0513d8b31f"
+        }
+      }
+    }
+  }
+}

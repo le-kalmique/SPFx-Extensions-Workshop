@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "title-field-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/titleField/TitleFieldFieldCustomizer.js",
+          "manifest": "./src/extensions/titleField/TitleFieldFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TitleFieldFieldCustomizerStrings": "lib/extensions/titleField/loc/{locale}.js"
+  }
+}
